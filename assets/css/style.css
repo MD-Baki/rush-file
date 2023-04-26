@@ -1069,16 +1069,16 @@ FAQ Page CSS
     font-weight: 700;
     padding-bottom: 40px;
 }
-#faq .faq-container {
+#faq.privacy .faq-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
 }
-#faq .faq-container .faq-item {
+#faq.privacy .faq-container .faq-item {
     border: 1px solid rgba(148, 157, 175, 35%);
     border-radius: 5px;
 }
-#faq .faq-item .faq-title {
+#faq.privacy .faq-item .faq-title {
     background-color: rgba(148, 157, 175, 15%);
     color: #535353;
     display: flex;
@@ -1087,14 +1087,14 @@ FAQ Page CSS
     padding: 10px 15px;
     gap: 8px;
 }
-#faq .faq-item .faq-title h3 {
+#faq.privacy .faq-item .faq-title h3 {
     font-size: 18px;
     font-weight: 500;
 }
-#faq .faq-item .faq-content p {
+#faq.privacy .faq-item .faq-content p {
     font-size: 15px;
     font-weight: 300;
-    color: var(--secondary-font-color);
+    color: #464646;
     padding: 10px 15px;
 }
 /* =================
